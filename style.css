@@ -1,0 +1,165 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serif;
+    
+    
+}
+
+body{
+    opacity:0;
+    transition:opacity 3s;
+    background-color:rgb(171, 190, 190);
+    
+}
+
+
+.hero{
+    max-width:100%;
+    height:100vh;
+    
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:40px 200px;
+    
+}
+.btn img{
+    width:35px;
+
+}
+.links ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    list-style:none;
+
+}
+
+.links ul a{
+    text-decoration: underline;
+    color: #2a2a2a;
+    font-weight: 400;
+    transition: all 100ms ease;
+    text-decoration-color: #d5475e;
+    
+    
+}
+
+.links ul a:hover{
+    color:#f4637b;
+    transition: all 0.4s ease-in-out;
+}
+
+.main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:6rem;
+    margin-top: 30px;
+    margin-right: 50px;
+    
+}
+
+.main.person{
+    width:350px;
+    transition:all 2000ms ease;
+    cursor:pointer;
+}
+
+
+.main.person:hover{
+    transform:scale(1.2);
+}
+
+.main.main-dt{
+    text-align:center;
+    color:#2a2a2a;
+}
+
+.main .main-dt h1{
+    font-size:50px;
+}
+
+.main .main-dt h4{
+    font-size:30px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+
+.main .btn button{
+    padding:8px 20px;
+    background: rgb(197, 159, 159);
+    border-radius: 30px;
+    border:1px solid #2a2a2a;
+    margin-right:1rem;
+    margin-bottom:30px;
+    cursor:pointer;
+    color:whitesmoke;
+    
+}
+.main .btn button:hover{
+    background:#ea6b80;
+    
+}
+#pal{
+    text-decoration:rgb(238, 230, 230) underline;
+    
+}
+#po{
+    text-decoration:rgb(215, 141, 141) underline;
+}
+
+.main .btn .btn-2{
+    background:#dfadb5;
+    color:#fff;
+    border:none;
+    outline:none;
+    transition: all 2000ms ease;
+    border:1px solid #2a2a2a;
+}
+#pi{
+    text-decoration: underline;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4{
+    font-family: cursive;
+}
+
+.main .btn .btn-2:hover{
+    background:#f4637b;
+}
+
+.social-icon i{
+    color:#625c5c;
+    font-size: 40px;
+    margin:0px 15px;
+    transition: all 2000ms ease;
+    cursor:pointer;
+    
+}
+
+.social-icon i:hover{
+    color:#f4637b;
+}
+footer{
+    background-color:#0f0e0e;
+    color:whitesmoke;
+    font-weight: bolder;
+}
+h3{
+    background-color:#0f0e0e;
+    color:whitesmoke;
+    cursor: pointer;
+
+}
